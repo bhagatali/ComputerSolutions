@@ -10,9 +10,34 @@ var app = angular.module("computerSolutions",['ngRoute'])
             templateUrl:'main.html',
             controller:'MainController'
         })
+        .when('/services',{
+            templateUrl:'services.html',
+            controller:'ServiceController'
+        })
+        .when('/about',{
+            templateUrl:'about.html',
+            controller:'MainController'
+        })
+        .when('/contact',{
+            templateUrl:'contact.html',
+            controller:'ContactController'
+        })
 }])
 
-.controller('MainController',['$scope',function($scope){
-    $scope.firstController = "Hello! Mate."
-    console.log($scope.firstController);
+.controller('MainController',['$scope','$http',function($scope,$http){
+    $http.get('services.json').then(function(response){
+       $scope.services = response.data; 
+    });
+}])
+
+.controller('ServiceController',['$scope','$http',function($scope,$http){
+    $http.get('services.json').then(function(response){
+       $scope.services = response.data;
+    });
+}])
+
+.controller('ContactController',['$scope','$http',function($scope,$http){
+    $http.get('contact.json').then(function(response){
+       $scope.locations = response.data;
+    });
 }]);

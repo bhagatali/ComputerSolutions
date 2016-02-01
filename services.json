@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "name":"Hardware Repair",
+        "description":"Sed ac turpis libero. Integer viverra blandit volutpat. Sed arcu risus, aliquam eget hendrerit vel, malesuada at odio. Nullam dignissim elementum ante, non tempor lectus maximus nec. Sed sem erat, luctus at bibendum a, tristique vitae quam. Sed lobortis sagittis sapien non blandit. Quisque erat urna, euismod sed placerat vel, interdum sed eros. Aliquam erat volutpat. Quisque fermentum mi ut libero egestas interdum. Proin ex tellus, tempus ac fringilla eget, lobortis ut arcu. Proin quis mi ex. Aliquam erat volutpat. Donec nibh est, porttitor in consectetur id, congue at quam. Sed et tincidunt quam.",
+        "image":"computer-icon.png"
+    },
+    {
+        "id":2,
+        "name":"Virus Removal",
+        "description":"Sed ac turpis libero. Integer viverra blandit volutpat. Sed arcu risus, aliquam eget hendrerit vel, malesuada at odio. Nullam dignissim elementum ante, non tempor lectus maximus nec. Sed sem erat, luctus at bibendum a, tristique vitae quam. Sed lobortis sagittis sapien non blandit. Quisque erat urna, euismod sed placerat vel, interdum sed eros. Aliquam erat volutpat. Quisque fermentum mi ut libero egestas interdum. Proin ex tellus, tempus ac fringilla eget, lobortis ut arcu. Proin quis mi ex. Aliquam erat volutpat. Donec nibh est, porttitor in consectetur id, congue at quam. Sed et tincidunt quam.",
+        "image":"computer-icon.png"     
+    },
+    {
+        "id":3,
+        "name":"System Tuneup",
+        "description":"Sed ac turpis libero. Integer viverra blandit volutpat. Sed arcu risus, aliquam eget hendrerit vel, malesuada at odio. Nullam dignissim elementum ante, non tempor lectus maximus nec. Sed sem erat, luctus at bibendum a, tristique vitae quam. Sed lobortis sagittis sapien non blandit. Quisque erat urna, euismod sed placerat vel, interdum sed eros. Aliquam erat volutpat. Quisque fermentum mi ut libero egestas interdum. Proin ex tellus, tempus ac fringilla eget, lobortis ut arcu. Proin quis mi ex. Aliquam erat volutpat. Donec nibh est, porttitor in consectetur id, congue at quam. Sed et tincidunt quam.",
+        "image":"computer-icon.png"
+    }
+]
